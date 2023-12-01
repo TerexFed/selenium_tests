@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from confest import browser
+from conftest import browser
 
 
 def test_phone_search(browser):

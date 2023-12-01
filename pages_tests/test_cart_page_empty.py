@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from confest import browser
+from conftest import browser
 
 
 def test_cart_page_empty(browser):

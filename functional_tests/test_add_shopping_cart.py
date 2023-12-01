@@ -2,7 +2,7 @@ import time   # без тайма не работает
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from confest import browser
+from conftest import browser
 
 
 def test_add_shopping_cart(browser):
