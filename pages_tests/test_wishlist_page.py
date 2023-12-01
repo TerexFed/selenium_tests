@@ -11,4 +11,3 @@ def test_wishlist_page(browser):
 
     assert driver.current_url == 'http://localhost/en-gb?route=account/wishlist'
 
-    time.sleep(1)
